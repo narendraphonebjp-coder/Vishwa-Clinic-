@@ -107,7 +107,7 @@ export const TIMELINE_EVENTS: TimelineEvent[] = [
   },
   {
     year: '2018',
-    title: 'Founded Vizwa Healthcare (Vishwa Health Care)',
+    title: 'Founded Vishwa Healthcare',
     institution: 'Ashoka Garden, Bhopal, MP',
     description: 'Inaugurated a dedicated premium treatment facility to bridge the gap between high-end manual techniques and active kinetic rehabilitation.'
   },
@@ -138,7 +138,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: 'test-2',
     patientName: 'Kirti Agrawal',
     condition: 'Grade-III Frozen Shoulder (Adhesive Capsulitis)',
-    quote: "Could not raise my right arm past pocket height or sleep on my right side. Other clinics only gave me standard TENS machine therapy which did nothing. At Vizwa, their active manual therapy and dry needling released my shoulder from the very first session. Highly professional.",
+    quote: "Could not raise my right arm past pocket height or sleep on my right side. Other clinics only gave me standard TENS machine therapy which did nothing. At Vishwa, their active manual therapy and dry needling released my shoulder from the very first session. Highly professional.",
     recoveryPeriod: '5 Weeks (8 Sessions)',
     location: 'Indrapuri, Bhopal'
   },
@@ -162,7 +162,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     id: 'faq-2',
     question: 'Do I need an orthopedic surgeon’s prescription or referral before booking?',
-    answer: 'No referral is needed to start physical therapy or chiropractic care at Vizwa Healthcare. We operate as primary contact clinicians. However, if you already have MRI reports, X-Rays, or surgeon prescriptions, we highly encourage you to bring them so we can integrate them into your clinical planning chart.',
+    answer: 'No referral is needed to start physical therapy or chiropractic care at Vishwa Healthcare. We operate as primary contact clinicians. However, if you already have MRI reports, X-Rays, or surgeon prescriptions, we highly encourage you to bring them so we can integrate them into your clinical planning chart.',
     category: 'Administrative'
   },
   {

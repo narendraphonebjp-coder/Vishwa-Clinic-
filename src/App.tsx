@@ -50,7 +50,7 @@ export default function App() {
           {/* Logo / Brand */}
           <div className="cursor-pointer" onClick={() => scrollToSection('hero')}>
             <span className="font-serif text-2xl tracking-normal font-light text-[#1C1917]">
-              Vizwa<span className="text-[#8C7A6B] italic font-medium">.</span>
+              Vishwa<span className="text-[#8C7A6B] italic font-medium">.</span>
             </span>
             <span className="block font-mono text-[8px] text-[#8C7A6B] uppercase tracking-widest mt-0.5">
               Healthcare — Spine & Joint Rehab
@@ -486,7 +486,7 @@ export default function App() {
 
               <div className="font-sans text-sm text-[#57534E] font-light leading-relaxed flex flex-col gap-5 max-w-xl">
                 <p>
-                  Vizwa Healthcare was conceptualized by <span className="font-medium text-[#1C1917]">Dr. Anurag Sahu, PT</span>, to replace traditional, passive clinical physiotherapy with advanced, active orthopedic manual decompression and neuro-muscular realignment.
+                  Vishwa Healthcare was conceptualized by <span className="font-medium text-[#1C1917]">Dr. Anurag Sahu, PT</span>, to replace traditional, passive clinical physiotherapy with advanced, active orthopedic manual decompression and neuro-muscular realignment.
                 </p>
                 <p>
                   Having certified in global osteopathic and chiropractic disciplines, Dr. Sahu believes in systemic diagnosis — analyzing a patient’s overall skeletal symmetry rather than solely focusing on local pain zones. Inside our Bhopal facility, we utilize state-of-the-art range of movement analysis systems combined with elite manually controlled spine decompressors.
@@ -704,7 +704,7 @@ export default function App() {
             {/* Branding detail */}
             <div className="md:col-span-4 flex flex-col gap-4">
               <h2 className="font-serif text-3xl font-light text-white tracking-normal">
-                Vizwa<span className="text-[#8C7A6B] italic font-medium">.</span>
+                Vishwa<span className="text-[#8C7A6B] italic font-medium">.</span>
               </h2>
               <p className="font-sans text-xs font-light leading-relaxed max-w-sm text-[#78716C]">
                 Dedicated premium orthopedic rehabilitation, chiropractics, manual decompression, and dry needling therapies in Central India. Combining clinical diagnostics with targeted kinetic re-education.
@@ -731,7 +731,7 @@ export default function App() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail size={13} className="text-[#8C7A6B] shrink-0" />
-                  <a href="mailto:consult@vizwahealth.com" className="hover:text-white transition-colors">consult@vizwahealth.com</a>
+                  <a href="mailto:consult@vishwahealth.com" className="hover:text-white transition-colors">consult@vishwahealth.com</a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock size={13} className="text-[#8C7A6B] shrink-0" />
@@ -763,7 +763,7 @@ export default function App() {
           {/* Legal copyrights division */}
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 font-mono text-[9px] text-[#78716C] uppercase tracking-widest">
             <div>
-              © {new Date().getFullYear()} Vizwa Healthcare Studio. All rights reserved.
+              © {new Date().getFullYear()} Vishwa Healthcare Studio. All rights reserved.
             </div>
             <div className="flex gap-6 items-center">
               <span>All consultations are conducted by Board Certified Manual Physiotherapists</span>

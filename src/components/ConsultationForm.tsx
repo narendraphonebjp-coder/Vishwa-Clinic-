@@ -17,7 +17,7 @@ export default function ConsultationForm() {
 
   // Load existing requests
   useEffect(() => {
-    const saved = localStorage.getItem('vizwa_consultations');
+    const saved = localStorage.getItem('vishwa_consultations') || localStorage.getItem('vizwa_consultations');
     if (saved) {
       try {
         setAppointments(JSON.parse(saved));
@@ -54,7 +54,7 @@ export default function ConsultationForm() {
 
     const updated = [newRequest, ...appointments];
     setAppointments(updated);
-    localStorage.setItem('vizwa_consultations', JSON.stringify(updated));
+    localStorage.setItem('vishwa_consultations', JSON.stringify(updated));
 
     setRecentAppointment(newRequest);
     setShowSuccess(true);
@@ -69,7 +69,7 @@ export default function ConsultationForm() {
   const handleDelete = (id: string) => {
     const filtered = appointments.filter(appt => appt.id !== id);
     setAppointments(filtered);
-    localStorage.setItem('vizwa_consultations', JSON.stringify(filtered));
+    localStorage.setItem('vishwa_consultations', JSON.stringify(filtered));
   };
 
   return (
