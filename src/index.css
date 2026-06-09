@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+/* Custom scrollbar and subtle transitions */
+html {
+  scroll-behavior: smooth;
+  background-color: #FAF9F6;
+}
+
+::selection {
+  background-color: #8C7A6B;
+  color: #FAF9F6;
+}
+
+/* Make image transition smooth */
+img {
+  transition: opacity 0.5s ease-in-out;
+}
+

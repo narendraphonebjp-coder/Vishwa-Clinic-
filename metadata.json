@@ -1,0 +1,6 @@
+{
+  "name": "Vishwa Physiotherapy Clinic Website",
+  "description": "A premium, elegant website for Vishwa Health Care Physiotherapy & Rehabilitation Center in Bhopal, Madhya Pradesh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
